@@ -1,0 +1,317 @@
+*{
+    margin: 0;
+    padding: 0;
+    background: #E5E5E5;
+    font-family: "inter" sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+img {
+    margin-top: 20px
+}
+
+main {
+    display: flex;
+    
+}
+
+.uno {
+    
+    width: 1000px;
+    margin-left: 10px;
+    
+}
+
+.uno div {
+    align-items: center;
+}
+
+.dos {
+    
+    width:440px ;
+}
+
+.input-text, .input-text-area {
+    position: relative;
+    color:#0A3871;
+    border:0;
+    
+}
+
+.input-text {
+    width: 680px;
+    height: 288px;    
+    margin-top: 168px;    
+    left: 240;
+    color:#0A3871;
+    font-family: "inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    right: -260px;
+    
+
+}
+
+input::placeholder, textarea::placeholder {
+    color:#0A3871;
+}
+
+
+.input-text-area {    
+    margin-top: 20px;
+    margin-left:10px;    
+    left:3px;
+    width: 400px;
+    height: 600px;
+
+
+}
+
+
+
+.container {
+    align-items: center;
+   
+}
+
+
+h6 {
+    /*margin-top: 480px;
+    margin-bottom: 0px;
+    margin-left: 100px;
+    color: #495057;
+    opacity: 0.8;    
+    size: 12px;*/
+    position:static;
+    width: 400px;
+    height: 18px;
+    left: 24px;    
+    top: 0px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: #495057;
+    opacity: 0.8;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 8px;
+    bottom: 0%;
+
+}
+
+
+.botones button {
+    /*border-radius: 24px;
+    width: 328px;
+    margin-top: 10px;
+    margin-left:100px;*/
+    display: flexbox;
+    flex-direction: row;
+    align-items: flex-end;
+    padding: 24px;
+    position: static;
+    width: 328px;
+    height: 67px;
+    left: 0px;
+    top: 0px;
+    border-radius: 24px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 24px;
+   
+
+}
+
+
+.Encriptar{ 
+    background: #0A3871;
+    position: static;
+    width: 280px;
+    height: 19px;
+    left: 24px;
+    top: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    margin: 0px 8px;
+
+
+    
+}
+
+.Desencriptar {
+    background: #E5E5E5;
+    position: static;
+    width: 280px;
+    height: 19px;
+    left: 24px;
+    top: 24px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #0A3871;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    margin: 0px 8px;
+    }
+
+
+@media screen and (max-width:900px){  
+    .central{ 
+        display: flex;
+        flex-direction: column;
+    }
+
+    
+
+
+    
+}
+
+@media screen and (max-width:480px){
+
+    .central{ 
+        display: flex;
+        flex-direction: column;
+    }
+
+    header {
+        position: absolute;
+        width: 375px;
+        height: 96px;
+        left: 0px;
+        top: 0px;
+    }
+
+    .uno{
+        display:flex;
+        flex-direction:row;
+    }
+
+    .input-text {
+        position: absolute;
+        width: 343px;
+        height: 48px;
+        left: 16px;
+        top: 3px;
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 150%;
+       
+        
+    }
+
+ 
+    .container{
+        display: flex;
+        flex-direction: column;
+       
+    }
+    .mensaje{
+      
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        position: absolute;
+        width: 229px;
+        height: 18px;
+        left: 16px;
+        top: 250px;    
+        
+    }
+
+    .botones {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        justify-content: space-between;
+
+        position: absolute;
+        width: 343px;
+        height: 158px;
+        left: 16px;
+        top: 260px; 
+        margin: 24px 0px;      
+
+    }
+
+    
+
+    .dos {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 32px;
+        position: absolute;
+        width: 270px;
+        height: 186px;
+        left: 24px;
+        top: 500px;
+
+        background: #FFFFFF;
+        box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+        border-radius: 32px;
+            }
+
+        .input-text-area {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 5px;
+
+            position: static;
+            border-radius: 5px;
+            width: 263px;
+            height: 122px;
+            left: 32px;
+            top: 15px;
+
+            flex: none;
+            order: 0;
+            align-self: stretch;
+            flex-grow: 0;
+            margin: 32px 0px;
+
+        }
+
+
+
+
+    
+    
+
+       
+    
+
+    
+
+
+
+}
+    
